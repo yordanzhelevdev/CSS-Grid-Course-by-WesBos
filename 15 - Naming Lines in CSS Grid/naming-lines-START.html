@@ -46,8 +46,15 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns: 1fr 500px 1fr;
+      grid-template-columns: [site-left] 1fr [content-start] 500px [content-end] 1fr [site-right];
       grid-template-rows: repeat(10, auto);
+    }
+
+    .item3 {
+      background: #BAd;
+      grid-column-start: 2;
+      grid-row-start: 1;
+      grid-row-end: span 10;
     }
   </style>
 </body>
