@@ -57,13 +57,11 @@ h6 {
   position: relative;
 }
 
-
 .code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-top: 6px solid #36383F;
 }
-
 
 .editor {
   background: rgb(29, 30, 34);
