@@ -28,3 +28,67 @@ h6 {
   font-size: 1.5em;
 }
 
+.codepen {
+  display: grid;
+}
+
+.pen {
+  background-color:black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 10px;
+  padding:5px;
+}
+
+.pen__details p {
+  margin: 0;
+}
+
+.button {
+  background-color: #36383F;
+  color: white;
+  border-radius: 3px;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  position: relative;
+}
+
+
+.code {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 6px solid #36383F;
+}
+
+
+.editor {
+  background: rgb(29, 30, 34);
+}
+
+.editor__header {
+  display: grid;
+  background: rgba(0,0,0,0.1);
+  color: #C5C8D4;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.button--small {
+  padding: 2px 8px;
+}
+
+.editor__code {
+  color: white;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.editor__gutter {
+  display: flex;
+  flex-direction: column;
+}
